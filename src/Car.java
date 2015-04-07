@@ -36,6 +36,13 @@ public class Car {
 		  this.speed+= amount;
 		}
 	}
+	/**
+	 * Decelerates the car by amount
+	 * @param amount the amount he car will decelerate
+	 */
+	public void decelerate(int amount){
+		this.speed = this.maxSpeed - amount;
+	}
 	
 	/**
 	 * Displays the object as a string in the format
